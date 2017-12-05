@@ -1,12 +1,13 @@
 package cmd
 
 import (
+	"errors"
+	"net/http"
+
 	"code.cloudfoundry.org/uaa-cli/cli"
 	"code.cloudfoundry.org/uaa-cli/uaa"
 	"code.cloudfoundry.org/uaa-cli/utils"
-	"errors"
 	"github.com/spf13/cobra"
-	"net/http"
 )
 
 func AddMemberPreRunValidations(config uaa.Config, args []string) error {

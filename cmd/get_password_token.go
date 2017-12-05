@@ -1,12 +1,13 @@
 package cmd
 
 import (
+	"errors"
+	"net/http"
+
 	"code.cloudfoundry.org/uaa-cli/config"
 	"code.cloudfoundry.org/uaa-cli/help"
 	"code.cloudfoundry.org/uaa-cli/uaa"
-	"errors"
 	"github.com/spf13/cobra"
-	"net/http"
 )
 
 func GetPasswordTokenValidations(cfg uaa.Config, args []string, clientSecret, username, password string) error {

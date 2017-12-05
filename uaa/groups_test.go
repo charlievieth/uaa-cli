@@ -1,14 +1,16 @@
 package uaa_test
 
 import (
-	. "code.cloudfoundry.org/uaa-cli/uaa"
 	"fmt"
+
+	. "code.cloudfoundry.org/uaa-cli/uaa"
+
+	"net/http"
 
 	. "code.cloudfoundry.org/uaa-cli/fixtures"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/ghttp"
-	"net/http"
 )
 
 var _ = Describe("Groups", func() {

@@ -1,11 +1,12 @@
 package uaa_test
 
 import (
+	"net/http"
+
 	. "code.cloudfoundry.org/uaa-cli/uaa"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/ghttp"
-	"net/http"
 )
 
 var _ = Describe("Info", func() {

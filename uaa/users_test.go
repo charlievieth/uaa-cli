@@ -3,14 +3,15 @@ package uaa_test
 import (
 	. "code.cloudfoundry.org/uaa-cli/uaa"
 
-	. "code.cloudfoundry.org/uaa-cli/fixtures"
-	. "code.cloudfoundry.org/uaa-cli/utils"
 	"encoding/json"
 	"fmt"
+	"net/http"
+
+	. "code.cloudfoundry.org/uaa-cli/fixtures"
+	. "code.cloudfoundry.org/uaa-cli/utils"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/ghttp"
-	"net/http"
 )
 
 var _ = Describe("Users", func() {

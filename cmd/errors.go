@@ -1,12 +1,13 @@
 package cmd
 
 import (
-	"code.cloudfoundry.org/uaa-cli/cli"
-	"code.cloudfoundry.org/uaa-cli/uaa"
 	"errors"
 	"fmt"
-	"github.com/spf13/cobra"
 	"os"
+
+	"code.cloudfoundry.org/uaa-cli/cli"
+	"code.cloudfoundry.org/uaa-cli/uaa"
+	"github.com/spf13/cobra"
 )
 
 const MISSING_TARGET = "You must set a target in order to use this command."

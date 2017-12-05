@@ -1,15 +1,16 @@
 package cli_test
 
 import (
-	. "code.cloudfoundry.org/uaa-cli/cli"
 	"fmt"
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
 	"io/ioutil"
 	"math/rand"
 	"net/http"
 	"net/url"
 	"time"
+
+	. "code.cloudfoundry.org/uaa-cli/cli"
+	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/gomega"
 )
 
 func serverUrl(port int) string {

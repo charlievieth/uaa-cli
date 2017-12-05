@@ -2,9 +2,10 @@ package cli
 
 import (
 	"fmt"
-	"github.com/fatih/color"
 	"io"
 	"log"
+
+	"github.com/fatih/color"
 )
 
 type Logger struct {

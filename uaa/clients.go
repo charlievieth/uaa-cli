@@ -1,12 +1,13 @@
 package uaa
 
 import (
-	"code.cloudfoundry.org/uaa-cli/utils"
 	"encoding/json"
 	"errors"
 	"fmt"
 	"net/http"
 	"strings"
+
+	"code.cloudfoundry.org/uaa-cli/utils"
 )
 
 type ClientManager struct {

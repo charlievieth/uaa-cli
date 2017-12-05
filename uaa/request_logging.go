@@ -1,10 +1,11 @@
 package uaa
 
 import (
-	"code.cloudfoundry.org/uaa-cli/utils"
 	"fmt"
 	"net/http"
 	"net/http/httputil"
+
+	"code.cloudfoundry.org/uaa-cli/utils"
 )
 
 func logResponse(response *http.Response) {

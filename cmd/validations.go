@@ -1,9 +1,10 @@
 package cmd
 
 import (
-	"code.cloudfoundry.org/uaa-cli/utils"
 	"errors"
 	"fmt"
+
+	"code.cloudfoundry.org/uaa-cli/utils"
 )
 
 func avalableFormats() []string {

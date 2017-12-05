@@ -1,10 +1,11 @@
 package cmd
 
 import (
+	"net/http"
+
 	"code.cloudfoundry.org/uaa-cli/cli"
 	"code.cloudfoundry.org/uaa-cli/uaa"
 	"github.com/spf13/cobra"
-	"net/http"
 )
 
 func GetTokenKeysCmd(client *http.Client, config uaa.Config) error {

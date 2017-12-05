@@ -1,6 +1,8 @@
 package cmd_test
 
 import (
+	"net/http"
+
 	"code.cloudfoundry.org/uaa-cli/cmd"
 	"code.cloudfoundry.org/uaa-cli/config"
 	"code.cloudfoundry.org/uaa-cli/uaa"
@@ -9,7 +11,6 @@ import (
 	. "github.com/onsi/gomega/gbytes"
 	. "github.com/onsi/gomega/gexec"
 	. "github.com/onsi/gomega/ghttp"
-	"net/http"
 )
 
 var _ = Describe("GetTokenKey", func() {

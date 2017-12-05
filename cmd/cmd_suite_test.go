@@ -7,7 +7,6 @@ import (
 	. "github.com/onsi/gomega/gexec"
 	. "github.com/onsi/gomega/ghttp"
 
-	"code.cloudfoundry.org/uaa-cli/config"
 	"io"
 	"io/ioutil"
 	"net/http"
@@ -15,6 +14,8 @@ import (
 	"os/exec"
 	"runtime"
 	"testing"
+
+	"code.cloudfoundry.org/uaa-cli/config"
 )
 
 func TestCmd(t *testing.T) {

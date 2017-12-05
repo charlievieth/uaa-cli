@@ -3,10 +3,11 @@ package cli_test
 import (
 	. "code.cloudfoundry.org/uaa-cli/cli"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
 	"io/ioutil"
 	"net/url"
+
+	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/gomega"
 )
 
 type TestLauncher struct {

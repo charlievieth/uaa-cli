@@ -4,9 +4,10 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
+	"testing"
+
 	"code.cloudfoundry.org/uaa-cli/config"
 	"code.cloudfoundry.org/uaa-cli/uaa"
-	"testing"
 )
 
 func TestClient(t *testing.T) {

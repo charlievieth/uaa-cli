@@ -2,12 +2,13 @@ package uaa
 
 import (
 	"bytes"
-	"code.cloudfoundry.org/uaa-cli/utils"
 	"encoding/json"
 	"errors"
 	"net/http"
 	"net/url"
 	"strconv"
+
+	"code.cloudfoundry.org/uaa-cli/utils"
 )
 
 type HttpRequestFactory interface {

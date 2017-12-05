@@ -1,9 +1,10 @@
 package cmd
 
 import (
+	"errors"
+
 	"code.cloudfoundry.org/uaa-cli/cli"
 	"code.cloudfoundry.org/uaa-cli/uaa"
-	"errors"
 	"github.com/spf13/cobra"
 )
 

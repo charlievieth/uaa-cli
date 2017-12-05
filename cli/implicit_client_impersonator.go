@@ -1,12 +1,13 @@
 package cli
 
 import (
-	"code.cloudfoundry.org/uaa-cli/uaa"
-	"code.cloudfoundry.org/uaa-cli/utils"
 	"fmt"
 	"net/url"
 	"os"
 	"strconv"
+
+	"code.cloudfoundry.org/uaa-cli/uaa"
+	"code.cloudfoundry.org/uaa-cli/utils"
 )
 
 type ClientImpersonator interface {

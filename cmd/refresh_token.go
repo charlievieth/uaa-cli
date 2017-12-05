@@ -1,14 +1,15 @@
 package cmd
 
 import (
+	"errors"
+	"net/http"
+
 	"code.cloudfoundry.org/uaa-cli/cli"
 	"code.cloudfoundry.org/uaa-cli/config"
 	"code.cloudfoundry.org/uaa-cli/help"
 	"code.cloudfoundry.org/uaa-cli/uaa"
 	"code.cloudfoundry.org/uaa-cli/utils"
-	"errors"
 	"github.com/spf13/cobra"
-	"net/http"
 )
 
 func RefreshTokenCmd(cfg uaa.Config, httpClient *http.Client, log cli.Logger, tokenFormat string) error {

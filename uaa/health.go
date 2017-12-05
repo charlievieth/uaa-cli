@@ -1,8 +1,9 @@
 package uaa
 
 import (
-	"code.cloudfoundry.org/uaa-cli/utils"
 	"net/http"
+
+	"code.cloudfoundry.org/uaa-cli/utils"
 )
 
 type UaaHealthStatus string

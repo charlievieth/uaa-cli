@@ -1,13 +1,14 @@
 package uaa_test
 
 import (
-	. "code.cloudfoundry.org/uaa-cli/uaa"
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
 	"io/ioutil"
 	"net/http"
 	"net/url"
 	"strconv"
+
+	. "code.cloudfoundry.org/uaa-cli/uaa"
+	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/gomega"
 )
 
 type TestData struct {

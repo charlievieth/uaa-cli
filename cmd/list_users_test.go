@@ -1,15 +1,16 @@
 package cmd_test
 
 import (
+	"fmt"
+	"net/http"
+
 	"code.cloudfoundry.org/uaa-cli/config"
 	. "code.cloudfoundry.org/uaa-cli/fixtures"
 	"code.cloudfoundry.org/uaa-cli/uaa"
-	"fmt"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/gexec"
 	. "github.com/onsi/gomega/ghttp"
-	"net/http"
 )
 
 var _ = Describe("ListUsers", func() {

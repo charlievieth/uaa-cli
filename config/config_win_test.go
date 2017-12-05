@@ -5,6 +5,7 @@ package config_test
 import (
 	"syscall"
 
+	"code.cloudfoundry.org/uaa-cli/config"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
